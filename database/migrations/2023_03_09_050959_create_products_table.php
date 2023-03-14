@@ -15,7 +15,7 @@ return new class extends Migration
             $table->id();
             $table->string('name_product');
             $table->string('description');
-            $table->integer('price');
+            $table->double('price');
             //number_supplier auto masuk ke stock
             $table->integer('stock');
             $table->timestamps();
